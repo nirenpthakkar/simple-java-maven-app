@@ -3,6 +3,7 @@ pipeline {
     
     tools {
         //To specify the maven to use
+        jdk 'local_JDK'
         maven 'mvn3.9.8'
     }
     
